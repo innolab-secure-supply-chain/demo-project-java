@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "de.ziegler.demo"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "microservice",
+    "baseName": "Demo",
+    "packageName": "de.ziegler.demo",
+    "packageFolder": "de/ziegler/demo",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZDkwNTQ3NjgwMjc5Mzk2ZTMxNGMxNWI3ZGQwMDA0ZjgwM2Q4NTA2NmRjN2MwNWYwODljNjQ4OWUzMDg1MDJkOTAyNWUxNzAyNDBkODk3ZWZlYzRiMTdjYzM1YzVmYTZlNTc1YjAyZDE1Mjk5ZjA3OTQzMmZlZTJhMWYwMWI0NGE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1680625750431,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
