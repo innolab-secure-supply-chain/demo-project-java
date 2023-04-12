@@ -19,5 +19,8 @@
   },
   "scripts": {
     "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml}\""
+  },
+  "dependencies": {
+    "follow-redirects": "^1.14.7"
   }
 }
