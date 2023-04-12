@@ -19,5 +19,8 @@
   },
   "scripts": {
     "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml}\""
+  },
+  "dependencies": {
+    "shelljs": "^0.8.5"
   }
 }
