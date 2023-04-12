@@ -367,19 +367,24 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <!--
-                        Would require account with https://ossindex.sonatype.org/ due to API rate limiting
-                        see https://github.com/jeremylong/DependencyCheck/issues/4539
-                    -->
-                    <ossindexAnalyzerEnabled>false</ossindexAnalyzerEnabled>
-                    <prettyPrint>true</prettyPrint>
-                    <outputDirectory>reports</outputDirectory>
-                <!--
-                <suppressionFiles>
-                    <suppressionFile>http://example.org/suppression.xml</suppressionFile>
-                    <suppressionFile>project-suppression.xml</suppressionFile>
-                </suppressionFiles>
-                -->
+                   <!--
+                       Add to break build on CVSS score >=7
+                       <failBuildOnCVSS>7</failBuildOnCVSS>
+                   -->
+
+                   <!--
+                     Would require account with https://ossindex.sonatype.org/ due to API rate limiting
+                     see https://github.com/jeremylong/DependencyCheck/issues/4539
+                   -->
+                   <ossindexAnalyzerEnabled>false</ossindexAnalyzerEnabled>
+                   <prettyPrint>true</prettyPrint>
+                   <outputDirectory>reports</outputDirectory>
+               <!--
+               <suppressionFiles>
+                   <suppressionFile>http://example.org/suppression.xml</suppressionFile>
+                   <suppressionFile>project-suppression.xml</suppressionFile>
+               </suppressionFiles>
+               -->
             </configuration>
 
             </plugin>
