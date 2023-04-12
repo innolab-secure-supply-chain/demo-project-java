@@ -1,0 +1,7 @@
+- params:
+    git:
+      repoName: demo-project-java
+      branches:
+        - main
+    scan:
+      includeAllVulnerabilities: true
