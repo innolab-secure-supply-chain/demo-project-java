@@ -1,4 +1,4 @@
-name: "Frogbot Scan Pull Request"
+name: Frogbot dependency scan
 on: push
 permissions:
   contents: write
