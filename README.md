@@ -1,4 +1,6 @@
 # Demo
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Finnolab-secure-supply-chain%2Fdemo-project-java.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Finnolab-secure-supply-chain%2Fdemo-project-java?ref=badge_shield)
+
 
 This application was generated using JHipster 6.10.4, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.10.4](https://www.jhipster.tech/documentation-archive/v6.10.4).
 
@@ -129,3 +131,7 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [running tests page]: https://www.jhipster.tech/documentation-archive/v6.10.4/running-tests/
 [code quality page]: https://www.jhipster.tech/documentation-archive/v6.10.4/code-quality/
 [setting up continuous integration]: https://www.jhipster.tech/documentation-archive/v6.10.4/setting-up-ci/
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Finnolab-secure-supply-chain%2Fdemo-project-java.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Finnolab-secure-supply-chain%2Fdemo-project-java?ref=badge_large)
