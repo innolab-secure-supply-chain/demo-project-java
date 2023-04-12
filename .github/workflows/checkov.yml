@@ -1,0 +1,24 @@
+on: [push,pull_request]
+
+name: checkov Action
+jobs:
+  checkov-check:
+    name: checkov check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install checkov
+        run: |
+          pip3 install checkov
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run checkov scan
+        run: |
+          checkov -s -d . --output-file-path reports
+
+      - name: Archive scan report
+        uses: actions/upload-artifact@v3
+        with:
+          name: owasp dependency-check reports
+          path: reports
