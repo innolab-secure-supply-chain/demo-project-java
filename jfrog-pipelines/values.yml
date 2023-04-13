@@ -1,0 +1,4 @@
+gitProvider: myGithub
+artifactory: myArtifactory
+repoPath: innolab-secure-supply-chain/demo-project-java
+deployerRepo: demo-java
