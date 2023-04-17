@@ -16,6 +16,6 @@ jobs:
               run: docker build . --file Dockerfile --tag testimage
             - uses: anchore/scan-action@v2
               with:
-                  image-reference: "testimage"
-                  dockerfile-path: "./Dockerfile"
-                  fail-build: true
+                image: "testimage"
+                dockerfile-path: "./Dockerfile"
+                fail-build: true
