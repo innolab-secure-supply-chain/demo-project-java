@@ -14,7 +14,7 @@ jobs:
               run: mvn --batch-mode --update-snapshots package
             - name: Docker Build
               run: docker build . --file Dockerfile --tag testimage
-            - uses: anchore/scan-action@v1
+            - uses: anchore/scan-action@v2
               with:
                   image-reference: "testimage"
                   dockerfile-path: "./Dockerfile"
